@@ -1,0 +1,25 @@
+{
+  "name": "@yjtec/m-upload",
+  "version": "0.0.1",
+  "description": "yjtec/m-upload",
+  "files":["lib","es"],
+  "main": "lib/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "tsn",
+    "email": "2308092717@qq.com"
+  },
+  "repository": "https://github.com/yjtec/js-m-upload/@yjtec/m-upload",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build",
+    "watch": "father build --watch"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0"
+  },
+  "license": "MIT"
+}
